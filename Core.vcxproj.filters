@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{803989aa-a388-4760-af26-a6953a70d208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua">
+      <UniqueIdentifier>{dce84b3d-9fd9-4d7d-9e78-ebe5198f288d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{6145a322-da59-4d40-9fef-33edc563f110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptBind">
+      <UniqueIdentifier>{b6f351d6-6482-4788-b6c3-f349b7fe2216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tween">
+      <UniqueIdentifier>{ca17ab2d-16eb-476d-8cef-a15e4c2d43bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptBind\Lua">
+      <UniqueIdentifier>{51710e62-576d-4f75-8d81-c4beab82f070}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tween\BaseTweener.cpp">
+      <Filter>Tween</Filter>
+    </ClCompile>
+    <ClCompile Include="tween\EasingFunc.cpp">
+      <Filter>Tween</Filter>
+    </ClCompile>
+    <ClCompile Include="tween\SingleTweener.cpp">
+      <Filter>Tween</Filter>
+    </ClCompile>
+    <ClCompile Include="tween\Tweener.cpp">
+      <Filter>Tween</Filter>
+    </ClCompile>
+    <ClCompile Include="tween\TweenerGroup.cpp">
+      <Filter>Tween</Filter>
+    </ClCompile>
+    <ClCompile Include="tween\TweenerSequence.cpp">
+      <Filter>Tween</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lapi.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lauxlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lbaselib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lbitlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lcode.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lcorolib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lctype.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldblib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldebug.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldo.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldump.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lfunc.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lgc.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\linit.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\liolib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\llex.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmathlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmem.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loadlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lobject.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lopcodes.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loslib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lparser.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstate.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstring.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstrlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltable.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltablib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltm.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lundump.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lvm.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lzio.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="scriptbind\Script.cpp">
+      <Filter>ScriptBind</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Debug.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind\Lua\LuaHelp.cpp">
+      <Filter>ScriptBind\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind\Lua\LuaBind.cpp">
+      <Filter>ScriptBind\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="integration_sample.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind\Lua\LuaFunction.cpp">
+      <Filter>ScriptBind\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind\Lua\LuaTable.cpp">
+      <Filter>ScriptBind\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind\Lua\LuaObject.cpp">
+      <Filter>ScriptBind\Lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tween\BaseTweener.h">
+      <Filter>Tween</Filter>
+    </ClInclude>
+    <ClInclude Include="tween\EasingFunc.h">
+      <Filter>Tween</Filter>
+    </ClInclude>
+    <ClInclude Include="tween\SingleTweener.h">
+      <Filter>Tween</Filter>
+    </ClInclude>
+    <ClInclude Include="tween\Tweener.h">
+      <Filter>Tween</Filter>
+    </ClInclude>
+    <ClInclude Include="tween\TweenerGroup.h">
+      <Filter>Tween</Filter>
+    </ClInclude>
+    <ClInclude Include="tween\TweenerSequence.h">
+      <Filter>Tween</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lapi.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lauxlib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lcode.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lctype.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldebug.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldo.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lfunc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lgc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llex.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llimits.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lmem.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lobject.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lopcodes.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lparser.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstate.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstring.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltable.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.hpp">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaconf.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lualib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lundump.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lvm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lzio.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="scriptbind\Script.h">
+      <Filter>ScriptBind</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Debug.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind\Lua\LuaHelp.h">
+      <Filter>ScriptBind\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind\Lua\LuaStackGuard.h">
+      <Filter>ScriptBind\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind\Lua\LuaTable.h">
+      <Filter>ScriptBind\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind\Lua\LuaBind.h">
+      <Filter>ScriptBind\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\ExportHelp.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind\Lua\LuaFunction.h">
+      <Filter>ScriptBind\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind\Lua\LuaObject.h">
+      <Filter>ScriptBind\Lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tween\EasingFunc.inl">
+      <Filter>Tween</Filter>
+    </None>
+    <None Include="sample1.lua">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test_comp.lua">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test_comp1.lua">
+      <Filter>test</Filter>
+    </None>
+    <None Include="class.lua">
+      <Filter>test</Filter>
+    </None>
+    <None Include="buildin.lua">
+      <Filter>test</Filter>
+    </None>
+  </ItemGroup>
+</Project>
